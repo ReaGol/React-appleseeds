@@ -1,0 +1,13 @@
+button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#playButton {
+    background-color: aquamarine;
+}
+
+#pauseButton {
+    background-color: coral;
+}
