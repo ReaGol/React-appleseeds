@@ -1,0 +1,19 @@
+ body {
+        min-height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+      }
+
+      .myBox {
+          width: 500px;
+          height: 500px;
+          border-radius: 10px;
+      }
+
+      .circle {
+          width: 500px;
+          height: 500px;
+          border-radius: 50%;
+      }
