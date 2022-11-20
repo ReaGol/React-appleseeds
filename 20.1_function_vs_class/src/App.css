@@ -1,0 +1,67 @@
+.App {
+  padding: 1rem;
+}
+
+.shoes_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shoe {
+  margin: 1rem;
+  padding: 1rem;
+  border: solid 1px grey;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+span {
+  display: flex;
+  justify-content: space-between;
+}
+
+  .spin {
+        border: 10px solid #0042A4;
+        border-radius: 50%;
+        border-top: 10px solid #3775CF;
+        border-right: 10px solid #619BEE;
+        border-bottom: 10px solid #96BFF9;
+        border-left: 10px solid #C9E0FF;
+        width: 50px;
+        height: 50px;
+        -webkit-animation: spin 1.5s linear infinite;
+        animation: spin 1.5s linear infinite;
+      }
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .btn-delete {
+        cursor: pointer;
+        margin-right: 50px;
+        padding: 2px 4px;
+        background-color: coral;
+        border-radius: 5px;
+        font-weight: 600;
+      }
+
+      button:hover{
+        box-shadow: 5px 1px 5px rgb(137, 157, 155);
+      }
