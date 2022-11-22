@@ -1,0 +1,47 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* 
+div {
+ height: 100vmin;
+ width: 100%;
+
+}
+
+div ul {
+  list-style: none;
+} */
+
+/* .App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  color: black;
+  padding-top: 4rem;
+} */
+/* 
+h1 {
+  padding-bottom: 2rem;
+} */
+
+.mode {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vmin;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: grey;
+  color: orange;
+}
