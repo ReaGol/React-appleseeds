@@ -1,0 +1,89 @@
+.box {
+  background: none; 
+  width: 240px;
+  height: 100px;
+  position: relative;
+ 
+}
+.box::after {
+  content: "";
+  width: 102%;
+  height: 100%;
+  position: absolute;
+  left: -245px;
+  transition: 1s ease-in-out all;
+  background: blue;
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.box2 {
+  background: none; 
+  width: 180px;
+  height: 100px;
+  position: relative;
+ 
+}
+.box2::after {
+  content: "";
+  width: 102%;
+  height: 100%;
+  position: absolute;
+  left: -245px;
+  transition: 1s ease-in-out all;
+  background: red;
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.box3 {
+  background: none; 
+  width: 150px;
+  height: 100px;
+  position: relative;
+ 
+}
+.box3::after {
+  content: "";
+  width: 102%;
+  height: 100%;
+  position: absolute;
+  left: -245px;
+  transition: 1s ease-in-out all;
+  background: green;
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
